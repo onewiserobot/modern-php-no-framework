@@ -1,0 +1,14 @@
+{
+    "name": "kevinsmith/no-framework",
+    "description": "An example of a modern php application bootstrapped without a framework",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php-di/php-di": "^6.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "ExampleApp\\": "src/"
+      }
+    }
+}
